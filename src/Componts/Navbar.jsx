@@ -3,7 +3,7 @@ import { Link, NavLink, useLocation } from 'react-router-dom'
 
 
 const Navbar = () => {
-    const navCss='flex w-auto sticky top-3 left-0 h-14 bg-gray-900 text-white justify-between items-center px-4 rounded overflow-hidden';
+    const navCss='mx-4 flex w-auto sticky top-3 left-0 h-14 bg-gray-900 text-white justify-between items-center px-4 rounded overflow-hidden';
     const linkCss = 'hover:text-gray-400';
     const activeLink = 'text-blue-600';
     return (
