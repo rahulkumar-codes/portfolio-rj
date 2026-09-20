@@ -8,7 +8,7 @@ const Navbar = () => {
     const activeLink = 'text-blue-600';
     return (
         <div className={navCss}>
-            <div className="text-2xl font-semibold">Rahul</div>
+            <div className="text-2xl font-semibold">Rahul Codes</div>
             <div className="flex gap-5 text-lg font-semibold">
                 <NavLink className={({isActive})=> isActive ? activeLink : linkCss } to='/'>Home</NavLink>
                 <NavLink className={({isActive})=> isActive ? activeLink : linkCss } to='/services'>Services</NavLink>
